@@ -25,10 +25,10 @@ namespace ohio_collegiate
             OpenAuth.AuthenticationClients.AddGoogle(
                 extraData: new { Icon = "/Images/sign-in-with-google.png" });
 
-            OpenAuth.AuthenticationClients.AddTwitter(
-                consumerKey: "J79a8O83TkJlH1r7c2Fdrga8t",
-                consumerSecret: "ilVPao9zL8n5sNhTDCAs1XCaPJcyOJ9RzfI9K17Bj1FoTuaZDm",
-                extraData: new { Icon = "/Images/login-with-twitter.png" });
+            //OpenAuth.AuthenticationClients.AddTwitter(
+               // consumerKey: "J79a8O83TkJlH1r7c2Fdrga8t",
+               // consumerSecret: "ilVPao9zL8n5sNhTDCAs1XCaPJcyOJ9RzfI9K17Bj1FoTuaZDm",
+                //extraData: new { Icon = "/Images/login-with-twitter.png" });
         }
     }
 }

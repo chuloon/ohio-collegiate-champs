@@ -28,6 +28,17 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+      <Objects>
+        <ObjectGroup Name="DefaultConnection-Deployment" Order="1">
+          <Destination Path="" />
+          <Object Type="DbFullSql">
+            <PreSource Path="Data Source=%28LocalDB%29\v11.0%3bAttachDbFilename=|DataDirectory|tournamentSignup.mdf%3bIntegrated Security=True" ScriptSchema="True" ScriptData="False" CopyAllFullTextCatalogs="False" DriDefaults="True" />
+            <Source Path="obj\Debug\AutoScripts\DefaultConnection-Deployment_SchemaOnly.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+      </Objects>
+    </PublishDatabaseSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -36,6 +47,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>&lt;Objects&gt;&lt;ObjectGroup Name="DefaultConnection-Deployment" Order="1"&gt;&lt;Destination Path="&amp;quot%3bData Source=%28LocalDB%29\v11.0%3bAttachDbFilename=C:\Users\Ben\Documents\Visual Studio 2012\Projects\ohio-collegiate\ohio-collegiate\App_Data\tournamentSignup.mdf%3bIntegrated Security=True%3b&amp;quot%3b" /&gt;&lt;Object Type="DbFullSql"&gt;&lt;PreSource Path="Data Source=%28LocalDB%29\v11.0%3bAttachDbFilename=&amp;quot%3bC:\Users\Ben\Documents\Visual Studio 2012\Projects\ohio-collegiate\ohio-collegiate\App_Data\tournamentSignup.mdf&amp;quot%3b%3bIntegrated Security=True%3bConnect Timeout=30" ScriptSchema="True" ScriptData="False" CopyAllFullTextCatalogs="False" DriDefaults="True" /&gt;&lt;Source Path="obj\Release\AutoScripts\DefaultConnection-Deployment_SchemaOnly.sql" Transacted="True" /&gt;&lt;/Object&gt;&lt;/ObjectGroup&gt;&lt;/Objects&gt;</PublishDatabaseSettings>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -132,16 +144,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Account\DeleteTeam.aspx" />
+    <Content Include="Account\EditMembers.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Manage.aspx" />
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="Account\Team.aspx" />
     <Content Include="App_Data\tournamentSignup.mdf" />
     <Content Include="App_Data\tournamentSignup_log.ldf">
       <DependentUpon>tournamentSignup.mdf</DependentUpon>
     </Content>
     <Content Include="Contact.aspx" />
+    <Content Include="Content\flipclock.css" />
+    <Content Include="Content\flipclock.js" />
+    <Content Include="Content\flipclock.min.js" />
+    <Content Include="Content\script.js" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -198,27 +217,46 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Images\accent.png" />
+    <Content Include="Images\allmid.png" />
+    <Content Include="Images\circle-compete-flip.png" />
+    <Content Include="Images\circle-news-flip.png" />
+    <Content Include="Images\circle-spectate-flip.png" />
+    <Content Include="Images\Face_Shots\albert.png" />
     <Content Include="Images\bullet.png" />
+    <Content Include="Images\Face_Shots\ben.png" />
+    <Content Include="Images\circle-compete.png" />
+    <Content Include="Images\circle-news.png" />
+    <Content Include="Images\circle-spectate.png" />
     <Content Include="Images\FacebookButton.png" />
+    <Content Include="Images\Face_Shots\chris.png" />
+    <Content Include="Images\Face_Shots\nick.png" />
+    <Content Include="Images\Face_Shots\sebastian.png" />
+    <Content Include="Images\Face_Shots\Stelanie.png" />
+    <Content Include="Images\favicon.ico" />
     <Content Include="Images\heroAccent.png" />
     <Content Include="Images\login-with-twitter.png" />
-    <Content Include="Images\orderedList0.png" />
-    <Content Include="Images\orderedList1.png" />
-    <Content Include="Images\orderedList2.png" />
-    <Content Include="Images\orderedList3.png" />
-    <Content Include="Images\orderedList4.png" />
-    <Content Include="Images\orderedList5.png" />
-    <Content Include="Images\orderedList6.png" />
-    <Content Include="Images\orderedList7.png" />
-    <Content Include="Images\orderedList8.png" />
-    <Content Include="Images\orderedList9.png" />
+    <Content Include="Images\logo-newegg.png" />
+    <Content Include="Images\menu-bg-1.png" />
+    <Content Include="Images\menu-bg-2.png" />
+    <Content Include="Images\menu-bg-3.png" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\paypal-donation-button.png" />
+    <Content Include="Images\prize-first.png" />
+    <Content Include="Images\prize-second.png" />
+    <Content Include="Images\prize-third.png" />
     <Content Include="Images\sign-in-with-google.png" />
+    <Content Include="Images\test-bg.jpg" />
     <Content Include="Join.aspx" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\allmid.gg.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Prizes.aspx" />
+    <Content Include="Redirect.aspx" />
+    <Content Include="RedirectTeam.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Rules.aspx" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.24.js" />
@@ -260,6 +298,27 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account\DeleteTeam.aspx.cs">
+      <DependentUpon>DeleteTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\DeleteTeam.aspx.designer.cs">
+      <DependentUpon>DeleteTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\EditMembers.aspx.cs">
+      <DependentUpon>EditMembers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\EditMembers.aspx.designer.cs">
+      <DependentUpon>EditMembers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Team.aspx.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Team.aspx.designer.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -329,7 +388,42 @@
     <Compile Include="Join.aspx.designer.cs">
       <DependentUpon>Join.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Prizes.aspx.cs">
+      <DependentUpon>Prizes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prizes.aspx.designer.cs">
+      <DependentUpon>Prizes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Redirect.aspx.cs">
+      <DependentUpon>Redirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Redirect.aspx.designer.cs">
+      <DependentUpon>Redirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RedirectTeam.aspx.cs">
+      <DependentUpon>RedirectTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RedirectTeam.aspx.designer.cs">
+      <DependentUpon>RedirectTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rules.aspx.cs">
+      <DependentUpon>Rules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rules.aspx.designer.cs">
+      <DependentUpon>Rules.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -352,7 +446,9 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="TeamPages\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
     <Content Include="Site.Master" />
@@ -368,11 +464,11 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>31746</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44300/</IISUrl>
+          <IISUrl>http://localhost:31741/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
