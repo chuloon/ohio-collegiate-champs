@@ -33,3 +33,4 @@ C:\Users\Ben\Documents\Visual Studio 2012\Projects\ohio-collegiate\ohio-collegia
 C:\Users\Ben\Documents\Visual Studio 2012\Projects\ohio-collegiate\ohio-collegiate\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\Ben\Documents\Visual Studio 2012\Projects\ohio-collegiate\ohio-collegiate\obj\Debug\ohio-collegiate.dll
 C:\Users\Ben\Documents\Visual Studio 2012\Projects\ohio-collegiate\ohio-collegiate\obj\Debug\ohio-collegiate.pdb
+C:\Users\Ben\Documents\Visual Studio 2012\Projects\ohio-collegiate\ohio-collegiate\obj\Debug\ohio-collegiate.csprojResolveAssemblyReference.cache

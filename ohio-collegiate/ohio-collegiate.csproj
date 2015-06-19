@@ -216,6 +216,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Images\about-bg.png" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\allmid.png" />
     <Content Include="Images\circle-compete-flip.png" />
@@ -234,6 +235,7 @@
     <Content Include="Images\Face_Shots\Stelanie.png" />
     <Content Include="Images\favicon.ico" />
     <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\join-bg.png" />
     <Content Include="Images\login-with-twitter.png" />
     <Content Include="Images\logo-newegg.png" />
     <Content Include="Images\menu-bg-1.png" />
@@ -246,6 +248,8 @@
     <Content Include="Images\prize-first.png" />
     <Content Include="Images\prize-second.png" />
     <Content Include="Images\prize-third.png" />
+    <Content Include="Images\prizes-bg.png" />
+    <Content Include="Images\rules-bg.png" />
     <Content Include="Images\sign-in-with-google.png" />
     <Content Include="Images\test-bg.jpg" />
     <Content Include="Join.aspx" />

@@ -421,6 +421,14 @@ ul#menu {
     background-color: #fff;
 }
 
+.content-wrapper-2 {
+    padding: 0px 40px 0px 40px !important;
+}
+
+.image-margin {
+    margin-bottom: -4px;
+}
+
     .featured .content-wrapper {
         color: #3e5667;
         padding: 20px 40px 0px 40px;

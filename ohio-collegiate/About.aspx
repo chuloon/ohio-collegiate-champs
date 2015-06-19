@@ -11,7 +11,9 @@
         }
     </script>
     <section class="featured">
-        <h1 class="center">Insert feature image here</h1>
+        <div class="content-wrapper-2 content-wrapper">
+            <img src="/Images/about-bg.png" class="image-margin" />
+        </div>
     </section>
 </asp:Content>
 
@@ -59,32 +61,38 @@
 
     <div class="about-container">
             <img class="about-image" src="/Images/Face_Shots/chris.png" />
-            <h3 class="about-left">Chris Postell</h3>
+            <h3 class="about-left">Chris Postell. CEO.</h3>
             <p class="about-left">Located in Cincinnati, OH, Chris created UCLoL – the first collegiate E-sports organization to be recognized as a club sport in the nation.  He has organized and executed everything from tournaments to professional fan meets and has 4 years experience in running gaming organizations.</p>
-        </div>
+            <p>email: <a href="mailto:chris@allmid.gg">chris@allmid.gg</a></p>
+    </div>
         <div class="about-container">
             <img class="about-image" src="/Images/Face_Shots/ben.png" />
-            <h3 class="about-left">Ben Ng</h3>
+            <h3 class="about-left">Ben Ng. CTO.</h3>
             <p class="about-left">A graduate of Ohio State University, Ben is a professional web developer by day.  During his tenure as a student he ran BuckeyeLan and has 4+ years experience in organizing and executing events.  Ben is also an avid cosplayer and has ties to multiple professional gaming organizations and companies.</p>
+            <p>email: <a href="mailto:ben@allmid.gg">ben@allmid.gg</a></p>
         </div>
         <div class="about-container">
             <img class="about-image" src="/Images/Face_Shots/stelanie.png" />
-            <h3 class="about-left">Stelanie Tsirlis</h3>
+            <h3 class="about-left">Stelanie Tsirlis. CMO.</h3>
             <p class="about-left">A rising star in the E-sports community, Stelanie brings together passion for gaming and a profound understanding for marketing.  She plans and hosts an annual convention at Miami University.  She also is heavily involved Miami’s student government association.</p>
+            <p>email: <a href="mailto:stelanie@allmid.gg">stelanie@allmid.gg</a></p>
         </div>
         <div class="about-container">
             <img class="about-image" src="/Images/Face_Shots/albert.png" />
-            <h3 class="about-left">Albert Maah</h3>
+            <h3 class="about-left">Albert Maah. COO.</h3>
             <p class="about-left">Albert Maah has ran gaming organizations since his days in High School.  He currently sits on the executive staff of E-sports Initiative at Ohio State, and helps host Shuffle - the largest Super Smash Bothers game tournament in the region.  In addition to his work with ESI, Albert has worked with MLG at their esports arena in Columbus.</p>
+            <p>email: <a href="mailto:albert@allmid.gg">albert@allmid.gg</a></p>
         </div>
         <div class="about-container">
             <img class="about-image" src="/Images/Face_Shots/sebastian.png" />
-            <h3 class="about-left">Sebastian Cheng</h3>
+            <h3 class="about-left">Sebastian Cheng. CCO.</h3>
             <p class="about-left">A Hong Kong native, Sebastian attends Case Western Reserve University in Cleveland, OH, where he is president of the Case League of Legends club.  He holds a passion for community engagement and has a broad network for bringing gamers across the region together. </p>
+            <p>email: <a href="mailto:sebastian@allmid.gg">sabastian@allmid.gg</a></p>
         </div>
         <div class="about-container">
             <img class="about-image" src="/Images/Face_Shots/nick.png" />
-            <h3 class="about-left">Nicholas Costaras</h3>
+            <h3 class="about-left">Nicholas Costaras. CFO.</h3>
             <p class="about-left">Located in Cleveland, OH, Nicholas is a lawyer that specializes in contract and tech. law.  Having worked for high profile companies like IBM, Nick now owns his own practice.  In his spare time, he works to develop and promote accessible esports platforms for aspiring competitive gamers.    </p>
+            <p>email: <a href="mailto:nick@allmid.gg">nick@allmid.gg</a></p>
         </div>
 </asp:Content>

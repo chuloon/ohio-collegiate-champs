@@ -47,6 +47,18 @@
             $('html,body').animate({ scrollTop: aTag.offset().top }, 'slow');
         }
     </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-64201620-1', 'auto');
+        ga('send', 'pageview');
+
+</script>
     <section class="featured">
         <div class="content-wrapper">
             <div id="menu-bg" class="menu-wrapper" style="z-index: 4; position: relative;">
@@ -105,7 +117,7 @@
                     <img src="/Images/prize-third.png" />
                 </div>
                 <h3>Third Place</h3>
-                <p class="prizes-text">Create your own winning team, or join an existing one, then start practicing to mark your place as the best in the nation!<br /><a href="/Register">Register now</a></p>
+                <p class="prizes-text">Create your own winning team, or join an existing one, then start practicing to mark your place as the best in the nation!<br /><a href="/Join">Register now</a></p>
             </div>
             <div class="prizes prize-second">
                 <h2>Compete</h2>
@@ -129,7 +141,8 @@
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="BodyContent2">
     <div class="content-wrapper">
         <div class="sponsor-wrap">
-            <a href="http://www.newegg.com/" target="_blank"><img src="/Images/logo-newegg.png" /></a>
+            <!--<a href="http://www.newegg.com/" target="_blank"><img src="/Images/logo-newegg.png" /></a>-->
+            Sponsors will go here soon!
         </div>
     </div>
 </asp:Content>

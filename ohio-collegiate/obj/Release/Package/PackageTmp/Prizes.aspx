@@ -9,7 +9,9 @@
         }
     </script>
     <section class="featured">
-        <h1 class="center">Insert feature image here</h1>
+        <div class="content-wrapper-2 content-wrapper">
+            <img src="/Images/prizes-bg.png" class="image-margin" />
+        </div>
     </section>
 </asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">

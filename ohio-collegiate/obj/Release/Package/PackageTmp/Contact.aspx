@@ -5,54 +5,28 @@
         window.onload = function () {
             $("#body").show();
             $("#body1").show();
-            $("#body2").show();
             $("#body3").show();
         }
     </script>
     <hgroup class="title">
         <h1><%: Title %>.</h1>
-        <h2>Your contact page.</h2>
+        <h2>Shoot us a message!</h2>
     </hgroup>
-
-    <section class="contact">
-        <header>
-            <h3>Phone:</h3>
-        </header>
-        <p>
-            <span class="label">Main:</span>
-            <span>425.555.0100</span>
-        </p>
-        <p>
-            <span class="label">After Hours:</span>
-            <span>425.555.0199</span>
-        </p>
-    </section>
-
-    <section class="contact">
-        <header>
-            <h3>Email:</h3>
-        </header>
-        <p>
-            <span class="label">Support:</span>
-            <span><a href="mailto:Support@example.com">Support@example.com</a></span>
-        </p>
-        <p>
-            <span class="label">Marketing:</span>
-            <span><a href="mailto:Marketing@example.com">Marketing@example.com</a></span>
-        </p>
-        <p>
-            <span class="label">General:</span>
-            <span><a href="mailto:General@example.com">General@example.com</a></span>
-        </p>
-    </section>
-
-    <section class="contact">
-        <header>
-            <h3>Address:</h3>
-        </header>
-        <p>
-            One Microsoft Way<br />
-            Redmond, WA 98052-6399
-        </p>
-    </section>
+    <div>
+        <asp:Label ID="nameLabel" runat="server" AssociatedControlID="nameTextBox">Name</asp:Label>
+        <asp:TextBox ID="nameTextBox" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="nameTextBox"
+            CssClass="field-validation-error" ErrorMessage="The name field is required." />
+        <asp:Label ID="emailLabel" runat="server" AssociatedControlID="emailTextBox">Email</asp:Label>
+        <asp:TextBox ID="emailTextBox" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="emailTextBox"
+            CssClass="field-validation-error" ErrorMessage="The email address field is required." />
+        <asp:Label ID="messageLabel" runat="server" AssociatedControlID="messageTextBox">Message</asp:Label>
+        <asp:TextBox ID="messageTextBox" TextMode="MultiLine" runat="server"></asp:TextBox>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="messageTextBox"
+            CssClass="field-validation-error" ErrorMessage="You must enter a message." />
+    </div>
+    <div>
+        <asp:Button ID="sendButton" Text="Send" runat="server" CssClass="rectButton" OnClick="sendButton_Click" />
+    </div>
 </asp:Content>
