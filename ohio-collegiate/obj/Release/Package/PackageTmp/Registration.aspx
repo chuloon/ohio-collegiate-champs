@@ -20,7 +20,7 @@
         <h2>Use the form below to register your team.</h2>
     </hgroup>
     
-    <script type="text/javascript" src="http://form.jotform.us/form/51823301916147"></script>
+    <script type="text/javascript" src="http://form.jotform.us/jsform/51823301916147"></script>
 
 
 </asp:Content>
