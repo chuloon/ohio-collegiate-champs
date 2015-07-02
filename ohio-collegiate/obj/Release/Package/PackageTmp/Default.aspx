@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="/Content/flipclock.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="/Content/flipclock.js"></script>
+    
     <script type="text/javascript">
         window.onload = function () {
 
@@ -57,7 +58,6 @@
 
         ga('create', 'UA-64201620-1', 'auto');
         ga('send', 'pageview');
-
 </script>
     <section class="featured">
         <div class="content-wrapper">
@@ -84,6 +84,7 @@
     </section>
 </asp:Content>
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function (L) { L.start({ "baseUrl": "mc.us11.list-manage.com", "uuid": "7ebfc5e5db282fbb785936de0", "lid": "d33c1b30a5" }) })</script>
     <div class="clock center"></div>
     <script>
         var clock;
@@ -139,10 +140,15 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="BodyContent2">
-    <div class="content-wrapper">
+    <div class="content-wrapper center">
         <div class="sponsor-wrap">
-            <!--<a href="http://www.newegg.com/" target="_blank"><img src="/Images/logo-newegg.png" /></a>-->
-            Sponsors will go here soon!
+            <a href="http://www.skoshbox.com/" target="_blank"><img src="/Images/logo-skoshbox.png" /></a>
+        </div>
+        <div class="sponsor-wrap">
+            <a href="http://www.electropopclothing.com/" target="_blank"><img src="/Images/logo-electropop.png" /></a>
+        </div>
+        <div class="sponsor-wrap">
+            <a href="http://www.gunnars.com/" target="_blank"><img src="/Images/logo-gunnar.png" /></a>
         </div>
     </div>
 </asp:Content>

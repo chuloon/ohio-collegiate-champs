@@ -222,6 +222,7 @@
     <Content Include="Images\circle-compete-flip.png" />
     <Content Include="Images\circle-news-flip.png" />
     <Content Include="Images\circle-spectate-flip.png" />
+    <Content Include="Images\logo-electropop.png" />
     <Content Include="Images\Face_Shots\albert.png" />
     <Content Include="Images\bullet.png" />
     <Content Include="Images\Face_Shots\ben.png" />
@@ -237,6 +238,7 @@
     <Content Include="Images\heroAccent.png" />
     <Content Include="Images\join-bg.png" />
     <Content Include="Images\login-with-twitter.png" />
+    <Content Include="Images\logo-gunnar.png" />
     <Content Include="Images\logo-newegg.png" />
     <Content Include="Images\menu-bg-1.png" />
     <Content Include="Images\menu-bg-2.png" />
@@ -251,6 +253,7 @@
     <Content Include="Images\prizes-bg.png" />
     <Content Include="Images\rules-bg.png" />
     <Content Include="Images\sign-in-with-google.png" />
+    <Content Include="Images\logo-skoshbox.png" />
     <Content Include="Images\test-bg.jpg" />
     <Content Include="Join.aspx" />
     <Content Include="packages.config" />
@@ -260,6 +263,7 @@
     <Content Include="Redirect.aspx" />
     <Content Include="RedirectTeam.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="Registration.aspx" />
     <Content Include="Rules.aspx" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -420,6 +424,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
     </Compile>
     <Compile Include="Rules.aspx.cs">
       <DependentUpon>Rules.aspx</DependentUpon>

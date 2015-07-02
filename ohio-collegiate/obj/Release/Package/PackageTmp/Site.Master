@@ -55,7 +55,8 @@
                         
                         <asp:LoginView runat="server" ViewStateMode="Disabled">
                             <AnonymousTemplate>
-                                <li><a id="A3" class="login-text" runat="server" href="~/Join">Tournament Registration</a></li>
+                                <li><a id="A3" class="login-text" runat="server" href="~/Join">Registration</a></li>
+                                <li><a class="login-text" runat="server" href="/About#subscribe">Subscribe</a></li>
                             </AnonymousTemplate>
                            <LoggedInTemplate>
                                 <li><a id="A2" runat="server" href="~/Account/Team">Team</a></li>
@@ -98,6 +99,7 @@
         <footer>
             <div class="content-wrapper">
                 <div class="float-left">
+                    <p><a href="/Default">Home</a> | <a href="/About">About</a> | <a href="/Contact">Contact</a> | <a href="/Join">Registration</a> | <a href="/About#subscribe">Subscribe</a></p>
                     <p>&copy; <%: DateTime.Now.Year %> - All Mid LLC</p>
                 </div>
             </div>
