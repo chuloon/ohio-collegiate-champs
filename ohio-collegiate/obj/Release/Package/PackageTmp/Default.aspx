@@ -154,7 +154,15 @@
 </asp:Content>
 <asp:Content ID="Content2" runat="server" ContentPlaceHolderID="BodyContent3">
     <a name="news"></a>
-    <div class="content-wrapper">News Div</div>
+    <hgroup class="title">
+        <h1>News.</h1>
+        <h2>Catch up on all the latest AllMid news!</h2>
+    </hgroup>
+    <div class="content-wrapper">
+        <a href="/Blog#070615">
+        <h3 class="blog-header blog-home">Tick Tock!</h3></a>
+        <p class="blog-date">Tick tock, the timer counts down to one of the best events to occur in the Midwest!</p>
+    </div>
 </asp:Content>
 <asp:Content ID="Content3" runat="server" ContentPlaceHolderID="BodyContent4">
     <a name="spectate"></a>

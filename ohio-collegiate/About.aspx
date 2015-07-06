@@ -26,7 +26,7 @@
 
     <div>
         <p style="text-align:justify;">
-            All MID is an organization that represents the largest and most active collegiate communities in the Midwest United States region.  With a emphasis on professionalism and community, All MID brings high level competition and involvement of all kinds to the E-sports scene.  The staff of All MID come from and represent some of the oldest and most established collegiate E-sports programs in the region while also drawing upon considerable professional in-house design, technology, and legal talents.
+            All MID is an organization that represents the largest and most active collegiate communities in the Midwest United States region.  With a emphasis on professionalism and community, All MID brings high level competition and involvement of all kinds to the E-sports scene.  The staff of All MID come from and represent some of the oldest and most established collegiate E-sports programs in the region while also drawing upon considerable professional in-house design, technology, and legal talents. If you have any more questions, check out or <a href="/FAQ">FAQ</a>!
         </p>
     </div>
 </asp:Content>

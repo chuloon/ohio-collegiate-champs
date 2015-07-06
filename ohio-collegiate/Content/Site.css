@@ -423,12 +423,23 @@ ul#menu {
     font-weight:400;
 }
 
+.faq-header {
+    font-size:18px;
+    margin-bottom:0px;
+    font-weight:700;
+}
+
 .blog-home {
     margin-top: 0px;
     padding-top: 20px;
 }
 
 .blog-date {
+    margin-top: 0px;
+    font-style:italic;
+}
+
+.faq-answer {
     margin-top: 0px;
     font-style:italic;
 }
