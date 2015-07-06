@@ -156,6 +156,7 @@
     <Content Include="App_Data\tournamentSignup_log.ldf">
       <DependentUpon>tournamentSignup.mdf</DependentUpon>
     </Content>
+    <Content Include="Blog.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\flipclock.css" />
     <Content Include="Content\flipclock.js" />
@@ -372,6 +373,13 @@
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog.aspx.designer.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

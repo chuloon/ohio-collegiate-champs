@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Rules.aspx.cs" Inherits="ohio_collegiate.Rules" %>
+﻿<%@ Page Title="Rules" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Rules.aspx.cs" Inherits="ohio_collegiate.Rules" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="FeaturedContent" runat="server">
     <script type="text/javascript">
         window.onload = function () {
@@ -15,7 +15,7 @@
     </section>
 </asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <div>Rules: Section 1</div>
+    <div><script type="text/javascript" src="http://form.jotform.us/jsform/51824831290151"></script></div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
     <div>Rules: Section 2</div>
