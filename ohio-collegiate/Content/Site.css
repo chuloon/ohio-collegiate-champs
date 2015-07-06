@@ -415,6 +415,28 @@ ul#menu {
     padding-top: 20px;
 }
 
+/*Blog Styles*/
+
+.blog-header {
+    font-size:22px;
+    margin-bottom:0px;
+    font-weight:400;
+}
+
+.blog-home {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.blog-date {
+    margin-top: 0px;
+    font-style:italic;
+}
+
+article {
+    margin-left: 100px;
+}
+
 
 /* page elements
 ----------------------------------------------------------*/
