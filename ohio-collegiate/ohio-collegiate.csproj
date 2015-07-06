@@ -256,6 +256,7 @@
     <Content Include="Images\rules-bg.png" />
     <Content Include="Images\sign-in-with-google.png" />
     <Content Include="Images\logo-skoshbox.png" />
+    <Content Include="Images\stream-thumb.png" />
     <Content Include="Images\test-bg.jpg" />
     <Content Include="Join.aspx" />
     <Content Include="packages.config" />

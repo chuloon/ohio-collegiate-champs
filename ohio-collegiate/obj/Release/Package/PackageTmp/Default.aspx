@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ohio_collegiate._Default" %>
+﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ohio_collegiate._Default" %>
 
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
     <link rel="stylesheet" href="/Content/flipclock.css" />
@@ -166,5 +166,10 @@
 </asp:Content>
 <asp:Content ID="Content3" runat="server" ContentPlaceHolderID="BodyContent4">
     <a name="spectate"></a>
-    <div class="content-wrapper">Spectate Div</div>
+    <hgroup class="title">
+        <h1>Spectate.</h1>
+        <h2>Don't miss a second of action.</h2>
+    </hgroup>
+    <p class="stream-description">Cheer on all your favorite collegiate teams as they compete to be the best in the midwest!</p>
+    <iframe src="http://www.twitch.tv/allmidtv/embed" frameborder="0" scrolling="no" height="378" width="620"></iframe>
 </asp:Content>

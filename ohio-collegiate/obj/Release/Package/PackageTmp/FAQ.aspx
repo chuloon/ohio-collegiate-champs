@@ -29,6 +29,8 @@
 
         <h3 class="faq-header">Where is the event held?</h3>
         <p class="faq-answer">Fifth Third Arena in the University of Cincinnati.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1547.474008128897!2d-84.51394926501236!3d39.13041436422345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc2efe307a1c0b976!2sFifth+Third+Arena!5e0!3m2!1sen!2sus!4v1436209982256" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
 
         <h3 class="faq-header">Is there an age requirement?</h3>
         <p class="faq-answer">You must be 13 years old to participate in AllMid Invitational. All children under the age of 13 must be accompanied by a parent or guardian at all times. If you are under 18, your parent or guardian must sign a waiver that we will have on site. Additionally, any cash prizes won by anyone under the age of 18 must be claimed with the help of parent or guardian.</p>
@@ -70,7 +72,7 @@
         <p class="faq-answer">Yes, you may choose to stay overnight for free. We highly recommend you to bring a sleeping bag or a pillow, though a sleeping bag or pillow will be provided if you don't have one.</p>
 
         <h3 class="faq-header">What tournaments are available?</h3>
-        <p class="faq-answer">League of Legend, Hearthstone, and Super Smash Bros (multiple versions)</p>
+        <p class="faq-answer">League of Legend, Hearthstone, and Super Smash Bros (multiple versions) are our featured tournaments, but we welcome all games to be played in the free areas!</p>
 
         <h3 class="faq-header">I don't want to play in a tournament. Will there be anything for me to do?</h3>
         <p class="faq-answer">If competitive gaming is not for you, there is casual gaming for League of Legends, Hearthstone, Smash and Call of Duty. There will also be fun tournaments for League of Legends such as The Aram Tournament, 1vs1 Tournament and 2vs2 Tournament. Besides gaming there is a raffle with amazing prizes, dance party, Ninja and many more non gaming related events. </p>

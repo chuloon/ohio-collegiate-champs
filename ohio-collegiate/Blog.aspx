@@ -39,7 +39,7 @@
 
         <p class="blog-article">
             All Mid is proud to present the All Mid Collegiate Invitational, a massive inter-collegiate LAN featuring tournaments for League of Legends, Hearthstone, and Smash Bros., an artist alley, giveaways, minigames, and more! All Mid invites you to pack up your computers for this BYOC (bring your own computer) event and compete for thousands of dollars in prizing.
-To register for a tournament, click on the Registration Page here.
+To register for a tournament, click on the <a href="/Join">Registration Page</a> here.
         </p>
 
         <p class="blog-article">All Mid will be posting more information about sponsors, tournaments, and opportunities to get involved on its website. So stay tuned for a truly truly truly outrageous time.</p>

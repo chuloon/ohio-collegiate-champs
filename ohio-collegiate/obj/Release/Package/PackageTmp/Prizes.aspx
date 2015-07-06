@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Prizes.aspx.cs" Inherits="ohio_collegiate.Prizes" %>
+﻿<%@ Page Title="Prizes" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Prizes.aspx.cs" Inherits="ohio_collegiate.Prizes" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="FeaturedContent" runat="server">
     <script type="text/javascript">
         window.onload = function () {
@@ -15,11 +15,15 @@
     </section>
 </asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <div>First Prize</div>
+    <hgroup class="title">
+        <h1><%: Title %>.</h1>
+        <h2>Who doesn't like winning things?</h2>
+    </hgroup>
+    <div><h3>We'll release more on exact prize pools and such later. Just trust us in that the prizes will be super awesome!</h3></div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
-    <div>Second Prize</div>
+    <div></div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent2" runat="server">
-    <div>Third Prize</div>
+    <div></div>
 </asp:Content>
