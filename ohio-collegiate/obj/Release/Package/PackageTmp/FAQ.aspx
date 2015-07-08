@@ -36,7 +36,7 @@
         <p class="faq-answer">You must be 13 years old to participate in AllMid Invitational. All children under the age of 13 must be accompanied by a parent or guardian at all times. If you are under 18, your parent or guardian must sign a waiver that we will have on site. Additionally, any cash prizes won by anyone under the age of 18 must be claimed with the help of parent or guardian.</p>
 
         <h3 class="faq-header">What items are prohibited?</h3>
-        <p class="faq-answer">Weapons, alcohol, open flames, non-vaporizing smoking implements (cigarettes, cigars, loose tobacco/rolling papers, etc.) are all not allowed.</p>
+        <p class="faq-answer">Weapons, alcohol, open flames, non-vaporizing smoking implements (cigarettes, cigars, loose tobacco/rolling papers, etc.) are all not allowed. <a href="/Security">See here for the nitty gritty details.</a></p>
 
         <h3 class="faq-header">What items should I bring?</h3>
         <p class="faq-answer">
@@ -69,7 +69,7 @@
         <p class="faq-answer">Unfortunately no, since all the featured events go on at the same time, the events will conflict with each other time wise. The only exception to this rule if you are knocked out of the 3 main featured events and choose to participate in a side event e.g Aram Tournament. </p>
 
         <h3 class="faq-header">Is overnight available?</h3>
-        <p class="faq-answer">Yes, you may choose to stay overnight for free. We highly recommend you to bring a sleeping bag or a pillow, though a sleeping bag or pillow will be provided if you don't have one.</p>
+        <p class="faq-answer">Yes, you may choose to stay overnight for free. We highly recommend you to bring a sleeping bag or a pillow.</p>
 
         <h3 class="faq-header">What tournaments are available?</h3>
         <p class="faq-answer">League of Legend, Hearthstone, and Super Smash Bros (multiple versions) are our featured tournaments, but we welcome all games to be played in the free areas!</p>
@@ -81,7 +81,7 @@
         <p class="faq-answer">We will be accepting all major credit cards such as Visa and Mastercard.</p>
 
         <h3 class="faq-header">Are refunds available?</h3>
-        <p class="faq-answer">Unfortunately, we will not be able to refund or cancel your seat online. We suggest finding a friend to purchase your ticket - otherwise, you can try showing up at the event day-of and we may be able to process a refund on the spot.</p>
+        <p class="faq-answer">Unfortunately, we will not be able to refund or cancel your seat online. We suggest finding a friend to purchase your ticket instead.</p>
 
         <h3 class="faq-header">Is Cosplay allowed?</h3>
         <p class="faq-answer">Yes! It's encouraged, actually!</p>
