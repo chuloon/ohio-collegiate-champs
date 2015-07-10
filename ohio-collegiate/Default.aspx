@@ -126,7 +126,6 @@
                 <div class="prize-img">
                     <img src="/Images/prize-third.png" />
                 </div>
-                <h3>Third Place</h3>
                 <p class="prizes-text">Create your own winning team, or join an existing one, then start practicing to mark your place as the best in the nation!<br /><a href="/Join">Register now</a></p>
             </div>
             <div class="prizes prize-second">
@@ -134,7 +133,6 @@
                 <div class="prize-img">
                     <img src="/Images/prize-second.png" />
                 </div>
-                <h3>Second Place</h3>
                 <p class="prizes-text">Join us in Cincinnati on October 3-4 to battle it out among the best of the best while exploring the rest of the countless festivities we have for you.<br /><a href="/Rules">Review rules</a></p>
             </div>
             <div class="prizes prize-first">
@@ -142,7 +140,6 @@
                 <div class="prize-img">
                     <img src="/Images/prize-first.png" />
                 </div>
-                <h3>First Place</h3>
                 <p class="prizes-text">Once your team wins, bask in the glory of victory--but not without going home with an enormous prize pot and swag from our sponsors!<br /><a href="/Prizes">View prizes</a></p>
             </div>
         </div>
