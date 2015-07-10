@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Tournament Registration" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Join.aspx.cs" Inherits="ohio_collegiate.Join" %>
+﻿<%@ Page Title="Register" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Join.aspx.cs" Inherits="ohio_collegiate.Join" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="FeaturedContent" runat="server">
     <script type="text/javascript">
         window.onload = function () {

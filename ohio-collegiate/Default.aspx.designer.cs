@@ -7,11 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ohio_collegiate
-{
-
-
-    public partial class _Default
-    {
+namespace ohio_collegiate {
+    
+    
+    public partial class _Default {
     }
 }

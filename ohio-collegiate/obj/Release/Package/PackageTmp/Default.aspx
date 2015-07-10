@@ -59,6 +59,15 @@
         ga('create', 'UA-64201620-1', 'auto');
         ga('send', 'pageview');
 </script>
+    <script>
+        $(document).ready(function () {
+            $("#stream-thumb").on("click", function () {
+                var video = '<div class="video-container"><iframe src="' + $('#stream-thumb').attr('data-video') + '"  frameborder="0" scrolling="no" height="378" width="620"></iframe></div>';
+                $("#video").hide();
+                $("#stream-window").html(video);
+            });
+        });
+    </script>
     <section class="featured">
         <div class="content-wrapper">
             <div id="menu-bg" class="menu-wrapper" style="z-index: 4; position: relative;">
@@ -165,11 +174,16 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content3" runat="server" ContentPlaceHolderID="BodyContent4">
+    
     <a name="spectate"></a>
     <hgroup class="title">
         <h1>Spectate.</h1>
         <h2>Don't miss a second of action.</h2>
     </hgroup>
     <p class="stream-description">Cheer on all your favorite collegiate teams as they compete to be the best in the midwest!</p>
-    <iframe src="http://www.twitch.tv/allmidtv/embed" frameborder="0" scrolling="no" height="378" width="620"></iframe>
+    <!--<iframe src="http://www.twitch.tv/allmidtv/embed" frameborder="0" scrolling="no" height="378" width="620"></iframe>-->
+    <div id="video">
+        <img id="stream-thumb" src="/Images/stream-thumb.png" data-video="http://www.twitch.tv/allmidtv/embed" />
+    </div>
+    <div id="stream-window"></div>
 </asp:Content>

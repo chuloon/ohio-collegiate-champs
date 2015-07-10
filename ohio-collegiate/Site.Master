@@ -15,6 +15,34 @@
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
     <link rel="shortcut icon" href="/Images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/Images/favicon.ico" type="image/x-icon">
+
+    <script runat="server">
+        void Page_Load(Object Sender, EventArgs e)
+        {
+            CheckBrowserCaps();
+        }
+
+        void CheckBrowserCaps()
+        {
+            System.Web.HttpBrowserCapabilities myBrowserCaps = Request.Browser;
+            if (((System.Web.Configuration.HttpCapabilitiesBase)myBrowserCaps).IsMobileDevice)
+            {
+                if (Page.Title != "Home" && Page.Title != "Register")
+                {
+                    Response.Redirect("http://m.allmid.gg/" + Page.Title);
+                }
+                else if (Page.Title == "Register")
+                {
+                    Response.Redirect("http://m.allmid.gg/Join");
+                }
+                else
+                {
+                    Response.Redirect("http://m.allmid.gg");
+                }
+            }
+        }
+    </script>
+
 </head>
 <body>
     <form runat="server">
