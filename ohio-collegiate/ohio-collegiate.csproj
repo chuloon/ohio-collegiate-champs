@@ -226,7 +226,6 @@
     <Content Include="Images\circle-spectate-flip.png" />
     <Content Include="Images\logo-electropop.png" />
     <Content Include="Images\Face_Shots\albert.png" />
-    <Content Include="Images\bullet.png" />
     <Content Include="Images\Face_Shots\ben.png" />
     <Content Include="Images\circle-compete.png" />
     <Content Include="Images\circle-news.png" />
@@ -237,7 +236,6 @@
     <Content Include="Images\Face_Shots\sebastian.png" />
     <Content Include="Images\Face_Shots\Stelanie.png" />
     <Content Include="Images\favicon.ico" />
-    <Content Include="Images\heroAccent.png" />
     <Content Include="Images\join-bg.png" />
     <Content Include="Images\login-with-twitter.png" />
     <Content Include="Images\logo-gunnar.png" />
@@ -254,10 +252,8 @@
     <Content Include="Images\prize-third.png" />
     <Content Include="Images\prizes-bg.png" />
     <Content Include="Images\rules-bg.png" />
-    <Content Include="Images\sign-in-with-google.png" />
     <Content Include="Images\logo-skoshbox.png" />
     <Content Include="Images\stream-thumb.png" />
-    <Content Include="Images\test-bg.jpg" />
     <Content Include="Join.aspx" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\allmid.gg.pubxml" />

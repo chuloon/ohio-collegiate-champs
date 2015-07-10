@@ -128,7 +128,7 @@
         <footer>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p><a href="/Default">Home</a> | <a href="/About">About</a> | <a href="/Contact">Contact</a> | <a href="/Join">Registration</a> | <a href="/About#subscribe">Subscribe</a> | <a href="/FAQ">FAQ</a></p>
+                    <p><a href="/">Home</a> | <a href="/About">About</a> | <a href="/Contact">Contact</a> | <a href="/Join">Registration</a> | <a href="/About#subscribe">Subscribe</a> | <a href="/FAQ">FAQ</a></p>
                     <p>&copy; <%: DateTime.Now.Year %> - All Mid LLC</p>
                 </div>
             </div>

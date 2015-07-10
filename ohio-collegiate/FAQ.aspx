@@ -86,7 +86,7 @@
         <p class="faq-answer">Unfortunately, we will not be able to refund or cancel your seat online. We suggest finding a friend to purchase your ticket instead.</p>
 
         <h3 class="faq-header">Is Cosplay allowed?</h3>
-        <p class="faq-answer">Yes! It's encouraged, actually!</p>
+        <p class="faq-answer">Yes! However, we are not supporting any cosplay related events.</p>
 
     </div>
 
