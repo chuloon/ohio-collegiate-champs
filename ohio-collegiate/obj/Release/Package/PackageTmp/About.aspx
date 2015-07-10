@@ -69,7 +69,7 @@
         <div class="about-container">
             <img class="about-image" src="/Images/Face_Shots/ben.png" />
             <h3 class="about-left">Ben Ng</h3>
-            <p class="about-left">A graduate of Ohio State University, Ben is a professional web developer by day.  During his tenure as a student he ran BuckeyeLan and has 4+ years experience in organizing and executing events.  Ben is also an avid cosplayer and has ties to multiple professional gaming organizations and companies.</p>
+            <p class="about-left">A graduate of Ohio State University, Ben is a professional web developer by day.  During his tenure as a student he ran BuckeyeLAN and has 4+ years experience in organizing and executing events.  Ben is also an avid cosplayer and has ties to multiple professional gaming organizations and companies.</p>
             <p>email: <a href="mailto:ben@allmid.gg">ben@allmid.gg</a></p>
         </div>
         <div class="about-container">
