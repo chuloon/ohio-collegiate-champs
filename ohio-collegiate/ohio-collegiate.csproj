@@ -264,6 +264,7 @@
     <Content Include="Register.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Rules.aspx" />
+    <Content Include="Schedule.aspx" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.24.js" />
@@ -452,6 +453,13 @@
     </Compile>
     <Compile Include="Rules.aspx.designer.cs">
       <DependentUpon>Rules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule.aspx.cs">
+      <DependentUpon>Schedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Schedule.aspx.designer.cs">
+      <DependentUpon>Schedule.aspx</DependentUpon>
     </Compile>
     <Compile Include="Security.aspx.cs">
       <DependentUpon>Security.aspx</DependentUpon>

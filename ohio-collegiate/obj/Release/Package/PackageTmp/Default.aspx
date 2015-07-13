@@ -116,6 +116,7 @@
             });
         });
     </script>
+    <h2 class="center"><a href="/Schedule">Check out the schedule here!</a></h2>
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="BodyContent">
     <a name="compete"></a>
