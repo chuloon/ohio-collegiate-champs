@@ -55,7 +55,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1547.474008128897!2d-84.51394926501236!3d39.13041436422345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc2efe307a1c0b976!2sFifth+Third+Arena!5e0!3m2!1sen!2sus!4v1436209982256" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         
         <h3 id="4" class="faq-header text-field">When does tournament registration end?</h3>
-        <p class="faq-answer text-field">All registration ends a week prior to the tournament starting for Smash and League of Legends, so September 5th for League of Legends and September 26th for all Smash tournaments. Hearthstone registration will end 3 days before the event, so September 30th.</p>
+        <p class="faq-answer text-field">All registration ends a week prior to the tournament starting for Smash and League of Legends, so September 18th for League of Legends and September 26th for all Smash tournaments. Hearthstone registration will end 3 days before the event, so September 30th.</p>
 
         <h3 id="5" class="faq-header">Is there an age requirement?</h3>
         <p class="faq-answer">You must be 13 years old to participate in AllMid Invitational. All children under the age of 13 must be accompanied by a parent or guardian at all times. If you are under 18, your parent or guardian must sign a waiver that we will have on site. Additionally, any cash prizes won by anyone under the age of 18 must be claimed with the help of parent or guardian.</p>
