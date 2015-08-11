@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Register" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Join.aspx.cs" Inherits="ohio_collegiate.Join" %>
+﻿<%@ Page Title="Privacy" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Privacy.aspx.cs" Inherits="ohio_collegiate.Privacy" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="FeaturedContent" runat="server">
     <script type="text/javascript">
         window.onload = function () {
@@ -17,9 +17,11 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <hgroup class="title">
         <h1><%: Title %>.</h1>
-        <h2>Use the form below to register your team.</h2>
+        <h2>Keep it secret, keep it safe.</h2>
     </hgroup>
-    <script type="text/javascript" src="http://form.jotform.us/jsform/51625357927160"></script>
+    
+    <script type="text/javascript" src="http://form.jotform.us/jsform/51944297370159"></script>
 
 
 </asp:Content>
+

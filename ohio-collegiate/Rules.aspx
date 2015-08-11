@@ -15,13 +15,16 @@
     </section>
 </asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <div><script type="text/javascript" src="http://form.jotform.us/jsform/51824831290151"></script></div>
+    <h2>League of Legends Rules</h2>
+    <div><script type="text/javascript" src="http://form.jotformpro.com/jsform/51963269336969"></script></div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
-    <div>Rules: Section 2</div>
+    <h2>Super Smash Bros Rules</h2>
+    <div><script type="text/javascript" src="http://form.jotformpro.com/jsform/51963698932977"></script></div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent2" runat="server">
-    <div>Rules: Section 3</div>
+    <h2>Hearthstone</h2>
+    <div><script type="text/javascript" src="http://form.jotformpro.com/jsform/52017942206954"></script></div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="BodyContent3" runat="server">
     <div>Rules: Section 4</div>

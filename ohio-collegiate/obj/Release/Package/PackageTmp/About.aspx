@@ -75,7 +75,7 @@
         <div class="about-container">
             <img class="about-image" src="/Images/Face_Shots/stelanie.png" />
             <h3 class="about-left">Stelanie Tsirlis</h3>
-            <p class="about-left">A lover of creative people,celery, and cats, Stelanie brings together a passion for gaming and profound understanding of marketing. Serving as Miami University eSports Club's President, she plans and hosts multiple League, Hearthstone, Dota 2, and CS:GO events every year and has 4+ years of event planning under her belt.</p>
+            <p class="about-left">A lover of creative people, celery, and cats, Stelanie brings together a passion for gaming and profound understanding of marketing. Serving as Miami University eSports Club's President, she plans and hosts multiple League, Hearthstone, Dota 2, and CS:GO events every year and has 4+ years of event planning under her belt.</p>
             <p>email: <a href="mailto:stelanie@allmid.gg">stelanie@allmid.gg</a></p>
         </div>
         <div class="about-container">

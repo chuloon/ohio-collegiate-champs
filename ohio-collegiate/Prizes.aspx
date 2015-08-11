@@ -19,10 +19,61 @@
         <h1><%: Title %>.</h1>
         <h2>Who doesn't like winning things?</h2>
     </hgroup>
-    <div><h3>We'll release more on exact prize pools and such later. Just trust us in that the prizes will be super awesome!</h3></div>
+   <div>
+        <h3>League of Legends</h3>
+        <p>
+            Division 1
+            <ul>
+                <li>$2000 pot bonus</li>
+                <li>All tournament entry fees</li>
+                <li>Standard Riot Prizing</li>
+            </ul>
+            Division 2
+            <ul>
+                <li>All tournament entry fees</li>
+                <li>Standard Riot Prizing</li>
+            </ul>
+            Payout:
+            <ul>
+                <li>First place: 50%</li>
+                <li>Second place: 30%</li>
+                <li>Third place: 15%</li>
+                <li>Fourth place: 5%</li>
+            </ul>
+        </p>
+    </div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
-    <div></div>
+    <div>
+        <h3>Super Smash Bros.</h3>
+        <p>
+            Project M Singles
+            <ul>
+                <li>$1000 pot bonus</li>
+                <li>Tournament entry fees</li>
+            </ul>
+            Project M Doubles
+            <ul>
+                <li>Tournament entry fees</li>
+            </ul>
+            Melee Singles
+            <ul>
+                <li>Tournament entry fees</li>
+            </ul>
+            Melee Doubles
+            <ul>
+                <li>Tournament entry fees</li>
+            </ul>
+            Smash 4 Singles
+            <ul>
+                <li>Tournament entry fees</li>
+            </ul>
+            Smash 4 Doubles
+            <ul>
+                <li>Tournament entry fees</li>
+            </ul>
+        </p>
+    </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent2" runat="server">
     <div></div>

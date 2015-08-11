@@ -19,7 +19,6 @@
         <h1><%: Title %>.</h1>
         <h2>Use the form below to register your team.</h2>
     </hgroup>
-    
     <script type="text/javascript" src="http://form.jotform.us/jsform/51625357927160"></script>
 
 
