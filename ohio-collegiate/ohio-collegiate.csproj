@@ -220,6 +220,7 @@
     <Content Include="FAQ.aspx" />
     <Content Include="Images\about-bg.png" />
     <Content Include="Images\accent.png" />
+    <Content Include="Images\allmid-fox.png" />
     <Content Include="Images\allmid.png" />
     <Content Include="Images\circle-compete-flip.png" />
     <Content Include="Images\circle-news-flip.png" />

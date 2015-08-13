@@ -77,24 +77,23 @@
     </asp:ScriptManager>
     <header>
         <div class="content-wrapper">
-            <div class="float-left padding-left">
-                <p class="site-title">
-                    <a runat="server" href="~/"><img src="/Images/allmid.png"></a>
-                </p>
+            <div class="center">
+                <img src="/Images/allmid-fox.png" width="70px" />
             </div>
-            <div class="float-right">
+            <div class="center">
                 <nav>
                     <ul id="menu">
-                        <li><a runat="server" href="~/">Home</a></li>
+                        <li class="home-padding"><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li class="registration-line"><a id="A3" class="login-text" runat="server" href="~/Join">Registration</a></li>
                         <li><a runat="server" href="~/Prizes">Prizes</a></li>
                         
                         <asp:LoginView runat="server" ViewStateMode="Disabled">
                             <AnonymousTemplate>
-                                <li><a id="A3" class="login-text" runat="server" href="~/Join">Registration</a></li>
-                                <li><a class="login-text" runat="server" href="/About#subscribe">Subscribe</a></li>
-                                <li><a class="login-text" runat="server" href="/FAQ">FAQ</a></li>
+                                
+                                <li><a runat="server" href="/About#subscribe">Subscribe</a></li>
+                                <li><a runat="server" href="/FAQ">FAQ</a></li>
                             </AnonymousTemplate>
                            <LoggedInTemplate>
                                 <li><a id="A2" runat="server" href="~/Account/Team">Team</a></li>

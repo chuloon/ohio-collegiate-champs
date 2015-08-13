@@ -242,18 +242,27 @@ footer {
 
 /* menu
 ----------------------------------------------------------*/
+.home-padding {
+    margin-left: 60px;
+}
+
+.registration-line {
+    text-decoration: underline;
+    -moz-text-decoration-color: #c64343;
+    text-decoration-color: #c64343;
+}
+
 ul#menu {
     font-size: 1.3em;
     font-weight: 600;
     margin: 0 0 5px;
     padding: 0;
-    text-align: right;
 }
 
     ul#menu li {
         display: inline;
         list-style: none;
-        padding-left: 15px;
+        margin-right: 60px;
     }
 
         ul#menu li a {
