@@ -111,6 +111,10 @@ h5, h6 {
     max-width: 960px;
 }
 
+.header-venue {
+    padding-top: 0px;
+}
+
 .wrap {
     margin-left: 50px;
     margin-right: 50px;

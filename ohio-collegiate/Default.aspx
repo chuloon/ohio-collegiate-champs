@@ -116,6 +116,8 @@
             });
         });
     </script>
+    <h2 class="center">October 3-4, 2015</h2>
+    <h2 class="center header-venue">Fifth Third Arena in the University of Cincinnati</h2>
     <h2 class="center"><a href="/Schedule">Check out the schedule here!</a></h2>
 </asp:Content>
 <asp:Content runat="server" ContentPlaceHolderID="BodyContent">

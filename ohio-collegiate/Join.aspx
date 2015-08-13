@@ -17,7 +17,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <hgroup class="title">
         <h1><%: Title %>.</h1>
-        <h2>Use the form below to register your team.</h2>
+        <h2>Become part of the Midwest's most epic eSports event.</h2>
     </hgroup>
     <script type="text/javascript" src="http://form.jotform.us/jsform/51625357927160"></script>
 
