@@ -246,6 +246,10 @@ footer {
     margin-left: 60px;
 }
 
+.header-logo {
+    margin-top: 20px;
+}
+
 .registration-line {
     text-decoration: underline;
     -moz-text-decoration-color: #c64343;
@@ -396,6 +400,7 @@ ul#menu {
 
 .prize-img {
     height: 150px;
+    margin-top: 20px;
 }
 
 .prize-third {

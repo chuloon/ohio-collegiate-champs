@@ -116,7 +116,10 @@
             });
         });
     </script>
-    <h2 class="center">October 3-4, 2015</h2>
+    <div class="center header-logo">
+    <img src="/Images/allmid.png" />
+        </div>
+    <h2 class="center header-venue">October 3-4, 2015</h2>
     <h2 class="center header-venue">Fifth Third Arena in the University of Cincinnati</h2>
     <h2 class="center"><a href="/Schedule">Check out the schedule here!</a></h2>
 </asp:Content>
@@ -125,21 +128,21 @@
     <div class="content-wrapper">
         <div class="wrap">
             <div class="prizes prize-third">
-                <h2>Join</h2>
+                <h2>League</h2>
                 <div class="prize-img">
                     <img src="/Images/prize-third.png" />
                 </div>
                 <p class="prizes-text">Create your own winning team, or join an existing one, then start practicing to mark your place as the best in the nation!<br /><a href="/Join">Register now</a></p>
             </div>
             <div class="prizes prize-second">
-                <h2>Compete</h2>
+                <h2>Smash</h2>
                 <div class="prize-img">
                     <img src="/Images/prize-second.png" />
                 </div>
                 <p class="prizes-text">Join us in Cincinnati on October 3-4 to battle it out among the best of the best while exploring the rest of the countless festivities we have for you.<br /><a href="/Rules">Review rules</a></p>
             </div>
             <div class="prizes prize-first">
-                <h2>Win</h2>
+                <h2>Hearthstone</h2>
                 <div class="prize-img">
                     <img src="/Images/prize-first.png" />
                 </div>
