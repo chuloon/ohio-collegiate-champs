@@ -78,7 +78,7 @@
     <header>
         <div class="content-wrapper">
             <div class="center">
-                <img src="/Images/allmid-fox.png" width="70px" />
+                <a href="~/"><img src="/Images/allmid-fox.png" width="70px" /></a>
             </div>
             <div class="center">
                 <nav>

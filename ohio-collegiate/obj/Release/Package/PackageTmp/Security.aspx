@@ -13,8 +13,8 @@
         <h2>Most of this is just common sense.</h2>
     </hgroup>
     <article>
-    <ol>
-        <li>Hugs not Drugs
+        <ol>
+            <li>Hugs not Drugs
                 <ul>
                     <li>Policy Overview
                                 <ul>
@@ -39,27 +39,26 @@
                                 </ul>
                     </li>
                 </ul>
-        </li>
-        <li>Swiper, no Swiping</li>
-        <ul>
-            <li>Policy Overview
+            </li>
+            <li>Swiper, no Swiping</li>
+            <ul>
+                <li>Policy Overview
                                 <ul>
                                     <li>Theft will not be tolerated at AllMid. If you are caught stealing directly from another individual or taking items from any private or public areas of AllMid that are not expressly indicated to be free, remediation steps will be taken.</li>
                                 </ul>
-            </li>
-            <li>Definitions
+                </li>
+                <li>Definitions
                                 <ul>
                                     <li>Theft: Any crime in which a person intentionally or fraudulently takes personal property of another entity without permission or consent and with the intent to convert it to the taker’s use, including potential sale.</li>
                                     <li>Property: Includes any money or items owned by an entity. Property shall be regarded as belonging to any person or entity having in it any proprietary right or interest.</li>
                                 </ul>
-            </li>
-            <li>Violations
+                </li>
+                <li>Violations
                                 <ul>
                                     <li>All instances of theft while on AllMid premises will result in one or more of the following: Onsite security and police will be contacted with the intent of prosecution in accordance with all state laws and governing procedures, revoking of badge, ban on future shows.</li>
                                 </ul>
-            </li>
-        </ul>
-        </li>
+                </li>
+            </ul>
         <li>No Fighting IRL
                 <ul>
                     <li>Policy Overview
@@ -85,7 +84,7 @@
                     </li>
                 </ul>
         </li>
-        <li>No Cheaterino
+            <li>No Cheaterino
                 <ul>
                     <li>Policy Overview
                                 <ul>
@@ -103,8 +102,8 @@
                                 </ul>
                     </li>
                 </ul>
-        </li>
-        <li>Respect each other and their personal bubbles
+            </li>
+            <li>Respect each other and their personal bubbles
                 <ul>
                     <li>Policy Overview
                                 <ul>
@@ -138,8 +137,8 @@
                                 </ul>
                     </li>
                 </ul>
-        </li>
-        <li>Don't mess with other peoples' stuff
+            </li>
+            <li>Don't mess with other peoples' stuff
                 <ul>
                     <li>Policy Overview
                                 <ul>
@@ -158,30 +157,30 @@
                                 </ul>
                     </li>
                 </ul>
-        </li>
-    </ol>
+            </li>
+        </ol>
 
-    <p class="strong">The Reporting Procedure for all six rules is the same. Find an AllMid Staffer and make them aware of the situation. They are instructed to immediately escalate the issue to show security and show management.</p>
+        <p class="strong">The Reporting Procedure for all six rules is the same. Find an AllMid Staffer and make them aware of the situation. They are instructed to immediately escalate the issue to show security and show management.</p>
 
-    <p class="strong">At least one building manager and two building staffers (one male one female) will be present all hours of the  event. One UCPD officer will be on premises at the evening.</p>
+        <p class="strong">At least one building manager and two building staffers (one male one female) will be present all hours of the  event. One UCPD officer will be on premises at the evening.</p>
 
-    <h2>Weapons Check Policies</h2>
-    <p>All prop weapons brought to the show MUST be approved as soon as you arrive. We will be looking for the following criteria:</p>
-    <ul>
-        <li>It cannot fire any sort of projectile. (Nerf guns are only allowed if they have been deactivated and cannot fire.)</li>
-        <li>It cannot be an airsoft weapon. (Yes, even if it’s deactivated.)</li>
-        <li>It cannot be sharp or pointy enough to cut or pierce someone with moderate pressure. This includes all real swords, daggers and knives. It also includes ceramic blades, needles, syringes and anything that can pierce (for example, a Little Sister syringe made of wood would not be allowed)</li>
-    </ul>
-    <p>Upon approval, your weapon and badge will be tagged and cataloged.</p>
+        <h2>Weapons Check Policies</h2>
+        <p>All prop weapons brought to the show MUST be approved as soon as you arrive. We will be looking for the following criteria:</p>
+        <ul>
+            <li>It cannot fire any sort of projectile. (Nerf guns are only allowed if they have been deactivated and cannot fire.)</li>
+            <li>It cannot be an airsoft weapon. (Yes, even if it’s deactivated.)</li>
+            <li>It cannot be sharp or pointy enough to cut or pierce someone with moderate pressure. This includes all real swords, daggers and knives. It also includes ceramic blades, needles, syringes and anything that can pierce (for example, a Little Sister syringe made of wood would not be allowed)</li>
+        </ul>
+        <p>Upon approval, your weapon and badge will be tagged and cataloged.</p>
 
-    <h2>Event Floor Policies</h2>
-    <p>For safety reasons, the following are not allowed to be used specifically inside the Event Space:</p>
-    <ul>
-        <li>Strollers (they may be carried)</li>
-        <li>Stilts</li>
-        <li>Remote controlled vehicles</li>
-        <li>Rollerskates, rollerblades, skateboards, and other forms of recreational wheeled transport</li>
-    </ul>
-    <p>Given the crowd density, situations that require mass egress would be restricted by these devices.</p>
-        </article>
+        <h2>Event Floor Policies</h2>
+        <p>For safety reasons, the following are not allowed to be used specifically inside the Event Space:</p>
+        <ul>
+            <li>Strollers (they may be carried)</li>
+            <li>Stilts</li>
+            <li>Remote controlled vehicles</li>
+            <li>Rollerskates, rollerblades, skateboards, and other forms of recreational wheeled transport</li>
+        </ul>
+        <p>Given the crowd density, situations that require mass egress would be restricted by these devices.</p>
+    </article>
 </asp:Content>
