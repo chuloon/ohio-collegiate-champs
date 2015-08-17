@@ -119,7 +119,7 @@
             </section>
         </div>
         <div id="body3">
-            <section class="content-wrapper main-content clear-fix">
+            <section class="main-content clear-fix">
                 <asp:ContentPlaceHolder runat="server" ID="BodyContent2" />
             </section>
         </div>

@@ -45,14 +45,17 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent2" runat="server">
-    <hgroup class="title">
-        <h1>Donations.</h1>
-        <h2>Mo' money, no problems.</h2>
-    </hgroup>
-    <div class="about-container">
-        <p>Not a company, but still want to support AllMid and help us create an amazing event? Fear not! You can help us grow by donating through Paypal!</p>
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EVM25TED4TV8L" target="_blank"><img src="/Images/paypal-donation-button.png" /></a>
-    </div>
+    <section class="content-wrapper">
+        <hgroup class="title">
+            <h1>Donations.</h1>
+            <h2>Mo' money, no problems.</h2>
+        </hgroup>
+        <div class="about-container">
+            <p>Not a company, but still want to support AllMid and help us create an amazing event? Fear not! You can help us grow by donating through Paypal!</p>
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EVM25TED4TV8L" target="_blank">
+                <img src="/Images/paypal-donation-button.png" /></a>
+        </div>
+    </section>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="BodyContent3" runat="server">
     <hgroup class="title">

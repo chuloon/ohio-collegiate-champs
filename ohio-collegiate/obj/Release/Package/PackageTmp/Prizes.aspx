@@ -76,5 +76,7 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent2" runat="server">
-    <div></div>
+    <section class="content-wrapper">
+        <div></div>
+    </section>
 </asp:Content>

@@ -23,8 +23,12 @@
     <div><script type="text/javascript" src="http://form.jotformpro.com/jsform/51963698932977"></script></div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent2" runat="server">
+    <section class="content-wrapper">
     <h2>Hearthstone</h2>
-    <div><script type="text/javascript" src="http://form.jotformpro.com/jsform/52017942206954"></script></div>
+        <div>
+            <script type="text/javascript" src="http://form.jotformpro.com/jsform/52017942206954"></script>
+        </div>
+    </section>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="BodyContent3" runat="server">
     <div>Rules: Section 4</div>

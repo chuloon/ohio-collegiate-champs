@@ -161,6 +161,8 @@
     <Content Include="Content\flipclock.css" />
     <Content Include="Content\flipclock.js" />
     <Content Include="Content\flipclock.min.js" />
+    <Content Include="Content\marquee.css" />
+    <Content Include="Content\marquee.js" />
     <Content Include="Content\script.js" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />

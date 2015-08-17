@@ -2,8 +2,11 @@
 
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
     <link rel="stylesheet" href="/Content/flipclock.css" />
+    <link rel="stylesheet" href="/Content/marquee.css" />
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="/Content/flipclock.js"></script>
+    <script src="/Content/marquee.js"></script>
     
     <script type="text/javascript">
         window.onload = function () {
@@ -152,7 +155,7 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="BodyContent2">
-    <div class="content-wrapper center">
+    <div class="center">
         <div class="sponsor-wrap">
             <a href="http://www.skoshbox.com/" target="_blank"><img src="/Images/logo-skoshbox.png" /></a>
         </div>
