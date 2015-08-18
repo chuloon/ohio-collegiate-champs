@@ -137,7 +137,7 @@
             <div class="content-wrapper">
                 <div class="float-left">
                     <p><a href="/">Home</a> | <a href="/About">About</a> | <a href="/Contact">Contact</a> | <a href="/Join">Registration</a> | <a href="/About#subscribe">Subscribe</a> | <a href="/FAQ">FAQ</a></p>
-                    <p>&copy; <%: DateTime.Now.Year %> - All Mid |<a href="/ToS">Terms of Service</a> | <a href="/Privacy">Privacy Policy</a></p>
+                    <p>&copy; <%: DateTime.Now.Year %> - All Mid | <a href="/ToS">Terms of Service</a> | <a href="/Privacy">Privacy Policy</a></p>
                     <a href="https://twitter.com/all_mid" class="twitter-follow-button" data-show-count="false">Follow @all_mid</a>
 <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
                     <br />

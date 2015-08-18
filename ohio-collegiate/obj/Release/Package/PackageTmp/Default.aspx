@@ -186,6 +186,8 @@
                     <img src="/Images/logo-gunnar.png" /></a></li>
                 <li><a href="http://www.egfederation.com/summerseries/" target="_blank">
                     <img src="/Images/logo-egf.png" /></a></li>
+                <li><a href="http://trinityforcenetwork.com/" target="_blank">
+                    <img src="/Images/logo-tfn.png" /></a></li>
             </ul>
         </div>
     </div>
