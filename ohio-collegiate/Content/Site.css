@@ -243,7 +243,11 @@ footer {
 /* menu
 ----------------------------------------------------------*/
 .home-padding {
-    margin-left: 60px;
+    margin-left: 40px;
+}
+
+.faq-padding {
+    margin-right: 30px !important;
 }
 
 .header-logo {

@@ -161,6 +161,7 @@
     <Content Include="Content\flipclock.css" />
     <Content Include="Content\flipclock.js" />
     <Content Include="Content\flipclock.min.js" />
+    <Content Include="Content\li-scroller.js" />
     <Content Include="Content\marquee.css" />
     <Content Include="Content\marquee.js" />
     <Content Include="Content\script.js" />

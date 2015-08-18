@@ -23,12 +23,11 @@ h1 {
 
 .container {
 	width: 100%;
-	background: grey;
 	float: left;
 	display: inline-block;
 	overflow: hidden;
 	box-sizing: border-box;
-	height: 45px;
+	height: 300px;
 	position: relative;
 	cursor: pointer;
 }
@@ -61,18 +60,20 @@ h1 {
 .marquee-content-items{
   display: inline-block;
   padding: 5px;
-  margin: 0;
+  margin: 40px 0 0 0;
   height: 45px;
   position: relative;
 }
 
 .marquee-content-items li{
-  display: inline-block;
+  display: table-cell;
   line-height: 35px;
   color: #fff;
+  text-align:center;
+  vertical-align:middle;
 }
 
 .marquee-content-items li:after{
-	content: "|";
+	content: "";
 	margin: 0 1em;
 }

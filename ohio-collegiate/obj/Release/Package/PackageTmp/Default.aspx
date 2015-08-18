@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="/Content/marquee.css" />
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/Content/flipclock.js"></script>
     <script src="/Content/marquee.js"></script>
     
@@ -32,6 +33,25 @@
             $("#cc").click(function () { scrollToAnchor('compete'); });
             $("#nn").click(function () { scrollToAnchor('news'); });
             $("#ss").click(function () { scrollToAnchor('spectate'); });
+
+            $(function () {
+
+                createMarquee({
+                    duration: 80000,
+                    hover: false
+                });
+
+                //example of overwriting defaults: 
+
+                // createMarquee({
+                // 		duration:30000, 
+                // 		padding:20, 
+                // 		marquee_class:'.example-marquee', 
+                // 		container_class: '.example-container', 
+                // 		sibling_class: '.example-sibling', 
+                // 		hover: false});
+                // });
+            });
         };
 
         function showFirst() {
@@ -155,18 +175,18 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="BodyContent2">
-    <div class="center">
-        <div class="sponsor-wrap">
-            <a href="http://www.skoshbox.com/" target="_blank"><img src="/Images/logo-skoshbox.png" /></a>
-        </div>
-        <div class="sponsor-wrap">
-            <a href="http://www.electropopclothing.com/" target="_blank"><img src="/Images/logo-electropop.png" /></a>
-        </div>
-        <div class="sponsor-wrap">
-            <a href="http://www.gunnars.com/" target="_blank"><img src="/Images/logo-gunnar.png" /></a>
-        </div>
-        <div class="sponsor-wrap">
-            <a href="http://www.egfederation.com/summerseries/" target="_blank"><img src="/Images/logo-egf.png" /></a>
+    <div class="container">
+        <div class="marquee">
+            <ul class="marquee-content-items">
+                <li><a href="http://www.skoshbox.com/" target="_blank">
+                    <img src="/Images/logo-skoshbox.png" /></a></li>
+                <li><a href="http://www.electropopclothing.com/" target="_blank">
+                    <img src="/Images/logo-electropop.png" /></a></li>
+                <li><a href="http://www.gunnars.com/" target="_blank">
+                    <img src="/Images/logo-gunnar.png" /></a></li>
+                <li><a href="http://www.egfederation.com/summerseries/" target="_blank">
+                    <img src="/Images/logo-egf.png" /></a></li>
+            </ul>
         </div>
     </div>
 </asp:Content>
