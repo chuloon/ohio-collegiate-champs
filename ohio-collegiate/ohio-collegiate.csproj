@@ -228,6 +228,7 @@
     <Content Include="Images\circle-compete-flip.png" />
     <Content Include="Images\circle-news-flip.png" />
     <Content Include="Images\circle-spectate-flip.png" />
+    <Content Include="Images\logo-bearcast.png" />
     <Content Include="Images\logo-egf.png" />
     <Content Include="Images\logo-electropop.png" />
     <Content Include="Images\Face_Shots\albert.png" />
@@ -244,6 +245,7 @@
     <Content Include="Images\join-bg.png" />
     <Content Include="Images\login-with-twitter.png" />
     <Content Include="Images\logo-gunnar.png" />
+    <Content Include="Images\logo-it.png" />
     <Content Include="Images\logo-newegg.png" />
     <Content Include="Images\logo-tfn.png" />
     <Content Include="Images\menu-bg-1.png" />
@@ -260,6 +262,7 @@
     <Content Include="Images\rules-bg.png" />
     <Content Include="Images\logo-skoshbox.png" />
     <Content Include="Images\stream-thumb.png" />
+    <Content Include="Images\logo-soit.png" />
     <Content Include="Join.aspx" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\allmid.gg.pubxml" />

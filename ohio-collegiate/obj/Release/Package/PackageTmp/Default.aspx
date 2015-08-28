@@ -188,6 +188,10 @@
                     <img src="/Images/logo-egf.png" /></a></li>
                 <li><a href="http://trinityforcenetwork.com/" target="_blank">
                     <img src="/Images/logo-tfn.png" /></a></li>
+                <li><a href="http://www.bearcastmedia.com/" target="_blank">
+                    <img src="/Images/logo-bearcast.png" /></a></li>
+                <li><a href="http://cech.uc.edu/it.html" target="_blank">
+                    <img src="/Images/logo-soit.png" /></a></li>
             </ul>
         </div>
     </div>
