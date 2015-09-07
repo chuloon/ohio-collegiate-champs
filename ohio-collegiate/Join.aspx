@@ -20,6 +20,6 @@
         <h2>Become part of the Midwest's most epic eSports event.</h2>
     </hgroup>
     <script type="text/javascript" src="http://form.jotform.us/jsform/51625357927160"></script>
-
+    <h6 class="center">If you are having trouble viewing the form, please contact <a href="mailto:ben.ng@outlook.com">ben@allmid.gg</a></h6>
 
 </asp:Content>

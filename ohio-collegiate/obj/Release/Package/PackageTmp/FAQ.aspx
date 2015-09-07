@@ -39,6 +39,7 @@
         <a href="#16"><p class="faq-answer">Will you be accepting credit cards at the event?</p></a>
         <a href="#17"><p class="faq-answer">Are refunds available?</p></a>
         <a href="#18"><p class="faq-answer">Is cosplay allowed?</p></a>
+        <a href="#19"><p class="faq-answer">What about tournament rules?</p></a>
     </div>
 
     <hr />
@@ -111,6 +112,8 @@
         <h3 id="18" class="faq-header">Is Cosplay allowed?</h3>
         <p class="faq-answer">Yes! However, we are not supporting any cosplay related events.</p>
 
+        <h3 id="19" class="faq-header">What about tournament rules?</h3>
+        <p class="faq-answer">Tournament rules can be found <a href="http://allmid.gg/Rules">here!</a></p>
     </div>
 
 

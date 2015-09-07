@@ -77,6 +77,17 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BodyContent2" runat="server">
     <section class="content-wrapper">
-        <div></div>
+        <div>
+            <h3>Hearthstone</h3>
+            <p>
+                Tournament entry fees +$500 pot bonus added at 32 participants and an additional $500 at 64 participants. 
+            </p>
+            Payout:
+            <ul>
+                <li>First place: 60%</li>
+                <li>Second place: 30%</li>
+                <li>Third place: 10%</li>
+            </ul>
+        </div>
     </section>
 </asp:Content>

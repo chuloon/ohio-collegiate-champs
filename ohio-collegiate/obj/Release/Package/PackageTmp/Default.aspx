@@ -192,6 +192,8 @@
                     <img src="/Images/logo-bearcast.png" /></a></li>
                 <li><a href="http://cech.uc.edu/it.html" target="_blank">
                     <img src="/Images/logo-soit.png" /></a></li>
+                <li><a href="http://www.reactivdesigns.com/" target="_blank">
+                    <img src="/Images/logo-reactiv.png" /></a></li>
             </ul>
         </div>
     </div>
