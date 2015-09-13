@@ -246,8 +246,9 @@
     <Content Include="Images\login-with-twitter.png" />
     <Content Include="Images\logo-gunnar.png" />
     <Content Include="Images\logo-it.png" />
-    <Content Include="Images\logo-newegg.png" />
+    <Content Include="Images\logo-microsoft.png" />
     <Content Include="Images\logo-reactiv.png" />
+    <Content Include="Images\logo-strc.png" />
     <Content Include="Images\logo-tfn.png" />
     <Content Include="Images\menu-bg-1.png" />
     <Content Include="Images\menu-bg-3.png" />

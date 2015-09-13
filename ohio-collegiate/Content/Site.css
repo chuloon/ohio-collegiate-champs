@@ -104,6 +104,10 @@ h5, h6 {
     color: #c64343;
 }
 
+.super-sponsors {
+    padding: 20px 50px 20px 50px;
+}
+
 /* main layout
 ----------------------------------------------------------*/
 .content-wrapper {
@@ -243,7 +247,7 @@ footer {
 /* menu
 ----------------------------------------------------------*/
 .home-padding {
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .faq-padding {

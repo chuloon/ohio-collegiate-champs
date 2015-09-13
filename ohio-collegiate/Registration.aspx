@@ -17,7 +17,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <hgroup class="title">
         <h1><%: Title %>.</h1>
-        <h2>Use the form below to register your team.</h2>
+        <h2>Use the form below to register.</h2>
     </hgroup>
     
     <script type="text/javascript" src="http://form.jotform.us/jsform/51823301916147"></script>
